@@ -1,0 +1,12 @@
+version: "3"
+services:
+  database:
+    image: mysql:8
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_DATABASE=Jira_database
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=admin

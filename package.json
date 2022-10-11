@@ -1,0 +1,29 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest --watchAll --runInBand --verbose",
+    "dev": "nodemon --exec ts-node .",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "0.2.37"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "jest": "^29.1.2",
+    "nodemon": "^2.0.20",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}

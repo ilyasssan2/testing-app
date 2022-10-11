@@ -1,0 +1,4 @@
+#to run the project
+
+- run this command "docker-compose up -d"
+- run this command for testing "npm run test"
